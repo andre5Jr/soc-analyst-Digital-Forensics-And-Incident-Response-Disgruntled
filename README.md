@@ -132,3 +132,32 @@ Timeline correlation across logs, histories, and filesystem
 Build alerts for unusual sudo installs and user creation
 Monitor /etc/crontab and script activity for anomalies
 Simulate logic bombs for defense playbooks
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/1-1.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-1.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-2%20Part%20One.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-2%20Part%20Two.%20.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-3%20.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/5-1.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/5-1%20Part%20Two..png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/5-2.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/5-3.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/5-4.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/6-1.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/6-1%20Part%20Two..png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/6-1%20Part%20Three.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/6-1%20Part%20Four.png) 
+
