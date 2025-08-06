@@ -48,6 +48,10 @@ Extract full command.
 
 🔱 Answer: /home/cybert
 
+📸 Screenshot Space: 
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/1-1.png)   
+
 ✏️ Task 3: Which user was created after the package from the previous task was installed?
 
 ⭕️ Objective: Find the first user account added post-install.
@@ -162,8 +166,6 @@ Timeline correlation across logs, histories, and filesystem
 Build alerts for unusual sudo installs and user creation
 Monitor /etc/crontab and script activity for anomalies
 Simulate logic bombs for defense playbooks
-
-![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/1-1.png)   
 
 ![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-1.png)   
 
