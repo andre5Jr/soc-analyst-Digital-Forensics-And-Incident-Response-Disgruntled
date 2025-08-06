@@ -32,8 +32,8 @@ In this scenario, you assume the role of a Linux forensic analyst in a simulated
 
 ✏️ Task 1: Identify Elevated Package Installation
 
-Objective: Find the exact command used to install a package with sudo.
-Method:
+⭕️ Objective: Find the exact command used to install a package with sudo.
+⭕️Method:
 grep sudo /var/log/auth.log | grep install
 Extract full command.
 
