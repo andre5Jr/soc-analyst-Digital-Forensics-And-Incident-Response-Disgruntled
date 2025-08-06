@@ -38,60 +38,88 @@ In this scenario, you assume the role of a Linux forensic analyst in a simulated
 grep sudo /var/log/auth.log | grep install
 Extract full command.
 
+🔱 Answer:
+
 ✏️ Task 2: Identify Working Directory
 
 ⭕️ Objective: Determine what directory the install command was run from.
 
 ⭕️ Method: The same auth log entry includes a PWD field.
 
+🔱 Answer:
+
 ✏️ Task 3: Detect New User Creation
 
-Objective: Find the first user account added post-install.
-Method:
+⭕️ Objective: Find the first user account added post-install.
+
+⭕️ Method:
 grep sudo /var/log/auth.log | grep adduser
+
+🔱 Answer:
 
 ✏️ Task 4: Find Sudo Privilege Grant
 
-Objective: Determine when sudo privileges were added to the new user.
-Method:
+⭕️ Objective: Determine when sudo privileges were added to the new user.
+
+⭕️ Method:
 grep sudo /var/log/auth.log | grep visudo
+
+🔱 Answer:
 
 ✏️ Task 5: Detect Script Creation
 
-Objective: Name the script file opened with vi.
-Method:
+⭕️ Objective: Name the script file opened with vi.
+
+⭕️ Method:
 grep sudo /var/log/auth.log | grep vi
+
+🔱 Answer:
 
 ✏️ Task 6: Locate Script Download Command
 
-Objective: Identify how the script was created (downloaded).
-Method:
+⭕️ Objective: Identify how the script was created (downloaded).
+
+⭕️ Method:
 cat /home/it‑admin/.bash_history | grep curl
+
+🔱 Answer:
 
 ✏️ Task 7: Track Script Movement
 
-Objective: Determine where and under what name the script was saved.
-Method:
+⭕️ Objective: Determine where and under what name the script was saved.
+
+⭕️ Method:
 cat /home/it‑admin/.viminfo | grep saveas
+
+🔱 Answer:
 
 ✏️ Task 8: File Modification Timestamp
 
-Objective: Find when the renamed script was last modified.
-Method:
+⭕️ Objective: Find when the renamed script was last modified.
+
+⭕️ Method:
 ls -la /bin | grep os-update.sh
+
+🔱 Answer:
 
 ✏️ Task 9: Identify Payload Outcome
 
-Objective: Name the file created by the logic bomb.
-Method:
+⭕️ Objective: Name the file created by the logic bomb.
+
+⭕️ Method:
 cat /bin/os-update.sh
+
+🔱 Answer:
 
 ✏️ Task 10: Determine Scheduled Execution Time
 
-Objective: Discover when the malicious script is set to execute.
-Method:
+⭕️ Objective: Discover when the malicious script is set to execute.
+
+⭕️ Method:
 cat /etc/crontab
 Use crontab format to decode timing.
+
+🔱 Answer:
 
 🔍 Analysis and Reflection
 
