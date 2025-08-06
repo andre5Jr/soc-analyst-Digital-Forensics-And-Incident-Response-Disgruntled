@@ -33,14 +33,16 @@ In this scenario, you assume the role of a Linux forensic analyst in a simulated
 ✏️ Task 1: Identify Elevated Package Installation
 
 ⭕️ Objective: Find the exact command used to install a package with sudo.
-⭕️Method:
+
+⭕️ Method:
 grep sudo /var/log/auth.log | grep install
 Extract full command.
 
 ✏️ Task 2: Identify Working Directory
 
-Objective: Determine what directory the install command was run from.
-Method: The same auth log entry includes a PWD field.
+⭕️ Objective: Determine what directory the install command was run from.
+
+⭕️ Method: The same auth log entry includes a PWD field.
 
 ✏️ Task 3: Detect New User Creation
 
