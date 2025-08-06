@@ -79,6 +79,16 @@ grep sudo /var/log/auth.log | grep vi
 
 🔱 Answer: bomb.sh 
 
+📸 Screenshot Space: 
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-1.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-2%20Part%20One.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-2%20Part%20Two.%20.png)   
+
+![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-3%20.png)   
+
 ✏️ Task 6: What is the command used that created the file bomb.sh?
 
 ⭕️ Objective: Identify how the script was created (downloaded).
@@ -166,14 +176,6 @@ Timeline correlation across logs, histories, and filesystem
 Build alerts for unusual sudo installs and user creation
 Monitor /etc/crontab and script activity for anomalies
 Simulate logic bombs for defense playbooks
-
-![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-1.png)   
-
-![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-2%20Part%20One.png)   
-
-![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-2%20Part%20Two.%20.png)   
-
-![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/4-3%20.png)   
 
 ![image alt](https://github.com/andre5Jr/soc-analyst-digital-forensics-and-incident-response-Disgruntled/blob/f6495bd64fa2e0c59ec8a8ff4b973e2dccc7d7f8/5-1.png)   
 
